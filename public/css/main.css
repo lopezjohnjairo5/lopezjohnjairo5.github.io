@@ -46,8 +46,10 @@ b{
     justify-content: center;
     align-items: center;
     background: var(--first-color);
-    background: linear-gradient(90deg, var(--first-color) 50%, var(--second-color) 50%);
+    background-image: url("../img/background-spiral.png"), linear-gradient(90deg, var(--first-color) 50%, var(--second-color) 50%);
     background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 #page{
@@ -76,6 +78,7 @@ nav{
     top: 0;
     padding: 10px;
     box-sizing: border-box;
+    z-index: 1001;
 
 }
 
