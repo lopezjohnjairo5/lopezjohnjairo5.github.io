@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 :root{
@@ -65,7 +66,7 @@ b{
     border: 5px solid var(--first-color);
     border-radius: 10px;
     box-sizing: border-box;
-    font-family: 'Source Sans 3', sans-serif;
+    
 }
 
 nav{
@@ -274,6 +275,20 @@ h3{
     height: 25px;
     margin: 0 5px;
     fill: white;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    box-sizing: border-box;
 }
 
 /*animations*/
