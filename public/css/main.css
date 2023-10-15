@@ -348,8 +348,6 @@ nav ul li:hover{
 
 nav ul li a:hover{
     cursor: pointer;
-    /*font-weight: bold;*/
-    color: var(--first-color);
 }
 
 .btns:hover .animation-btn{
