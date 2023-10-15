@@ -1,0 +1,13 @@
+actualizaciones portfolio
+
+- convertir el menu en pestañas como un folder
+- poner iconos para las opciones del menu
+- galeria de proyectos dejarla como se ve en responsive (botones abajo)
+- poner el texto que acompaña a las imagenes de la galeria a un lado en lugar de abajo
+- poner idiomas (es|en)
+- poner seccion juegos
+- poner modos (claro | oscuro)
+
+IDEA
+
+- recrear entorno desktop linux como portfolio
