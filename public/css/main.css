@@ -402,6 +402,10 @@ nav ul li a:hover{
         width: 95%;
         min-height: 90%;
     }
+
+    .ancle-text{
+        display: none;
+    }
     
     #section-galery-content{
         height: 100%;

@@ -24,7 +24,8 @@ const hiddeShowElements = (seeElement) => {
 };
 
 navItems.addEventListener("click", (e) =>{
-    element = e.target;
+    element = e.target.parentNode;
+    console.log(element);
     if (element.tagName == 'A') {
         idEl = element.dataset.go;
         hiddeShowElements(idEl); 
