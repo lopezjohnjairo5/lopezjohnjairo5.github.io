@@ -10,7 +10,85 @@
     --third-color: rgba(69,69,69,1);
     --four-color: rgba(44,44,44,1);
     --first-transparent-color: rgba(10,10,10,.5);
+    --backgroundImage : url("../img/background-spiral.png");
+    --backgroundPage : url("../img/background.png");
 }
+
+#mode-info-input{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60px;
+    height: 20px;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/*********** Baseline, reset styles ***********/
+#mode {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Removes default focus */
+  #mode:focus {
+    outline: none;
+  }
+  
+  /******** Chrome, Safari, Opera and Edge Chromium styles ********/
+  /* slider track */
+  #mode::-webkit-slider-runnable-track {
+    background-color: #163f4b;
+    border-radius: 0.7rem;
+    height: 1.7rem;
+  }
+  
+  /* slider thumb */
+  #mode::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: 4px; /* Centers thumb on the track */
+    background-color: var(--first-color);
+    border-radius: 0.7rem;
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  
+  #mode:focus::-webkit-slider-thumb {
+    outline: 3px solid var(--first-color);
+    outline-offset: 0.125rem;
+  }
+  
+  /*********** Firefox styles ***********/
+  /* slider track */
+  #mode::-moz-range-track {
+    background-color: #163f4b;
+    border-radius: 0.7rem;
+    height: 1.7rem;
+  }
+  
+  /* slider thumb */
+  #mode::-moz-range-thumb {
+    background-color: var(--first-color);
+    border: none; /*Removes extra border that FF applies*/
+    border-radius: 0.7rem;
+    height: 1.2rem;
+    width: 1.3rem;
+  }
+  
+  #mode:focus::-moz-range-thumb{
+    outline: 3px solid var(--first-color);
+    outline-offset: 0.125rem;
+  }
+
+/*---------------*/
 
 .hidden{
     display: none;
@@ -46,7 +124,7 @@ b{
     justify-content: center;
     align-items: center;
     background: var(--first-color);
-    background-image: url("../img/background-spiral.png"), linear-gradient(90deg, var(--first-color) 50%, var(--second-color) 50%);
+    background-image: var(--backgroundImage), linear-gradient(90deg, var(--first-color) 50%, var(--second-color) 50%);
     background-repeat:no-repeat;
     background-size: contain;
     background-position: center;
@@ -60,8 +138,8 @@ b{
     position: relative;
     flex-direction: column;
     justify-content: center;
-    background: rgb(69,69,69);
-    background-image: url("../img/background.png"), radial-gradient(circle, var(--third-color) 0%, var(--four-color) 50%);
+    background: var(--third-color);
+    background-image: var(--backgroundPage), radial-gradient(circle, var(--third-color) 0%, var(--four-color) 50%);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -400,7 +478,7 @@ nav ul li a:hover{
 @media only screen and (max-width: 720px) {
     #page{
         width: 95%;
-        min-height: 90%;
+        min-height: 85%;
     }
 
     .ancle-text{
