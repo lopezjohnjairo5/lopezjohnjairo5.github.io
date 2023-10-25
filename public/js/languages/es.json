@@ -1,0 +1,30 @@
+{
+    "generals":{
+        "title":"Portafolio - John López",
+        "creator":"<span>Creada por <b>John Lopez</b></span>"
+    },
+    "navbar":{
+        "link1":"Inicio",
+        "link2":"Proyectos",
+        "link3":"Acerca de",
+        "link4":"Contacto"
+    },
+    "content1":{
+        "title" : "¡Bienvenido!",
+        "text" : "Mi nombre es <b>John López</b>,<br>soy programador web y modelador 3D <br>freelance.",
+        "btn" : "Proyectos"
+    },
+    "content2":{
+        "btn1":"Proyectos 3D",
+        "btn2":"Proyectos Web",
+        "btn3":"Juegos"
+    },
+    "content3":{
+        "title":"Sobre mi.",
+        "text":"Mi nombre es <b>John López</b>, soy programador web freelance. Cuento con 2 años de experiencia trabajando en diferentes proyectos web principalmente con las tecnologías:  <b>JavaScript y PHP</b>. Además, cuento con experiencia como <b>docente</b> en el área de tecnología y como <b>modelador 3D</b> realizando multitud de piezas enfocadas principalmente para <b>impresión 3D</b>."
+    },
+    "content4":{
+        "title":"Contacto",
+        "text":"Estas son algunas de mis redes, siéntete libre de dejarme un mensaje."
+    }
+}
