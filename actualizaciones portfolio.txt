@@ -1,8 +1,8 @@
 actualizaciones portfolio
 
-- poner el texto que acompaña a las imagenes de la galeria a un lado en lugar de abajo
-- poner idiomas (es|en)
+- rehacer la galeria para que quede mas interesante
 - poner seccion juegos
+- poner seccion extensiones chrome (crear unas 5 extensiones simples pero descargables)
 
 IDEA
 
