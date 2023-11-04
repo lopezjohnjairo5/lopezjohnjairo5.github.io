@@ -1,10 +1,4 @@
-
-const changeModePage = () => {
-    /*
-    funcion encargada de cambiar el modo
-    de visualizacion de la pagina, dark , light
-    */
-    valueMode = btnChangeMode.value;
+const switchMode = (valueMode) => {
     switch (valueMode) {
         case '0':
             document.documentElement.style.setProperty('--backgroundImage', 'url("../img/background-spiral.png")');
@@ -14,6 +8,8 @@ const changeModePage = () => {
             document.documentElement.style.setProperty('--third-color', 'rgba(69,69,69,1)');
             document.documentElement.style.setProperty('--four-color', 'rgba(44,44,44,1)');
             document.documentElement.style.setProperty('--first-transparent-color', 'rgba(10,10,10,.5)');
+            iconTitle.setAttribute('href',"public/img/ico-amarillo.ico");
+            logoLoadPage.setAttribute('src',"public/img/logo-blanco-amarillo.png");
             break;
     
         default:
@@ -24,8 +20,19 @@ const changeModePage = () => {
             document.documentElement.style.setProperty('--third-color', 'rgba(45,45,45,1)');
             document.documentElement.style.setProperty('--four-color', '#191919');
             document.documentElement.style.setProperty('--first-transparent-color', 'rgba(7,7,7,1)');
+            iconTitle.setAttribute('href',"public/img/ico-azul.ico");
+            logoLoadPage.setAttribute('src',"public/img/logo-blanco-azul.png");
             break;
     }
+};
+
+const changeModePage = () => {
+    /*
+    funcion encargada de cambiar el modo
+    de visualizacion de la pagina, dark , light
+    */
+    valueMode = btnChangeMode.value;
+    switchMode(valueMode);
 
 };
 

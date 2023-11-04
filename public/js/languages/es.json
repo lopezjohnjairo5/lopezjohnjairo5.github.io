@@ -11,7 +11,7 @@
     },
     "content1":{
         "title" : "¡Bienvenido!",
-        "text" : "Mi nombre es <b>John López</b>,<br>soy programador web y modelador 3D <br>freelance.",
+        "text" : "Mi nombre es JO<b>}{</b>N,<br>soy programador web y modelador 3D <br>freelance.",
         "btn" : "Proyectos"
     },
     "content2":{

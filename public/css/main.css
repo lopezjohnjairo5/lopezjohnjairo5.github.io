@@ -49,6 +49,119 @@
     margin: 0 5px;
 }
 
+/* charge bar*/
+#load-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-image: linear-gradient(0deg, var(--first-color) 50%, var(--second-color) 50%);*/
+    z-index: 1002;
+}
+
+.background-load-color{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+#color1{
+    bottom: 0;
+    left: 0;
+    background-color: var(--first-color);
+}
+
+#color2{
+    top: 0;
+    left: 0;
+    background-color: var(--second-color);
+}
+
+
+
+#logo-load-page{
+    animation-name: logo-rotation;
+    animation-duration: 5s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#charge-bar{
+    width: 250px;
+    height: 20px;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.6);
+    overflow: hidden;
+}
+
+#text-indicator{
+    position: absolute;
+    top: 17%;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    mix-blend-mode:hard-light;
+    font-size: .7em;
+    z-index: 1003;
+}
+
+#charge-indicator{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    position: absolute;
+    background: rgb(243,255,0);
+    background-color: var(--second-color);
+    /*background: linear-gradient(-45deg, var(--first-color) 0%, var(--first-color) 12%, var(--second-color) 12%, var(--second-color) 25%, var(--second-color) 37%, var(--first-color) 37%, var(--first-color) 50%, var(--first-color) 62%, var(--second-color) 62%, var(--second-color) 75%, var(--second-color) 87%, var(--first-color) 87%, var(--first-color) 100%); */
+    animation-name: charge-bar-animation;
+    animation-duration: 3s;
+    animation-delay:1s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: 1002;
+}
+
+@keyframes charge-bar-animation {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes logo-rotation{
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    20%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } 
+    40%{
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
 /*********** Baseline, reset styles ***********/
 #mode {
     -webkit-appearance: none;
@@ -156,6 +269,7 @@ b{
     min-height: 80%;
     padding: 10px;
     display: flex;
+    opacity: 0;
     position: relative;
     flex-direction: column;
     justify-content: center;

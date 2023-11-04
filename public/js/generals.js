@@ -1,8 +1,20 @@
 
 let navItems = document.getElementById("navbar-items"),
     elements = document.getElementsByClassName("goto"),
+    iconTitle = document.getElementById('icon-title'),
+    page = document.getElementById('page'),
     btnHomeProject = document.getElementById("btn-home-goto-project"),
     btnChangeMode = document.getElementById("mode"),
     modeItemColor = btnChangeMode.value == "#FFB633" ? "#FFB633" : "rgb(16,16,94)",
     lang = document.documentElement.lang,
-    textChange = document.querySelectorAll('[data-type]');
+    textChange = document.querySelectorAll('[data-type]'),
+    loadPage = document.getElementById('load-page'),
+    logoLoadPage = document.getElementById('logo-load-page'),
+    heightPage = window.innerHeight,
+    color1 = document.getElementById('color1'),
+    color2 = document.getElementById('color2'),
+    minValue = 20,
+    changeSize = 15,
+    opacityValue = 1,
+    pageOpacity = 0;
+    valueChangeOpacity = 0.05;
