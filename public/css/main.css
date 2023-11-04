@@ -138,30 +138,6 @@
     z-index: 1002;
 }
 
-@keyframes charge-bar-animation {
-    0%{
-        left: -100%;
-    }
-    100%{
-        left: 0;
-    }
-}
-
-@keyframes logo-rotation{
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotateY(0deg);
-    }
-    20%{
-        -webkit-transform: rotate(180deg);
-        transform: rotateY(180deg);
-    } 
-    40%{
-        -webkit-transform: rotate(0deg);
-        transform: rotateY(0deg);
-    }
-}
-
 /*********** Baseline, reset styles ***********/
 #mode {
     -webkit-appearance: none;
@@ -555,6 +531,30 @@ footer{
 }
 
 /*animations*/
+@keyframes charge-bar-animation {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes logo-rotation{
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    20%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } 
+    40%{
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
 nav ul li:hover{
     background-color: var(--third-color);
 }

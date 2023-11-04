@@ -1,7 +1,7 @@
 {
     "generals":{
         "title":"Portfolio - John López",
-        "creator":"<span>Create for <b>John Lopez</b></span>"
+        "creator":"<span>Created by <b>John Lopez</b></span>"
     },
     "navbar":{
         "link1":"Home",
@@ -11,7 +11,7 @@
     },
     "content1":{
         "title" : "Welcome!",
-        "text" : "My name is JO<b>}{</b>N, I am a freelance web programmer and 3D modeler.",
+        "text" : "My name is JO<b>}{</b>N, I'm a freelance web programmer and 3D modeler.",
         "btn" : "Projects"
     },
     "content2":{
@@ -21,10 +21,10 @@
     },
     "content3":{
         "title":"About me.",
-        "text":"My name is <b>John López</b>, I am a freelance web programmer. I have 2 years of experience working on different web projects mainly with technologies: <b>JavaScript and PHP</b>. In addition, I have experience as a <b>teacher</b> in the area of ​​technology and as a <b>3D modeler</b> making a multitude of pieces focused mainly on <b>3D printing</b>."
+        "text":"My name is <b>John López</b>, I'm a freelance web programmer. I have 2 years of experience working on different web projects mainly with programming languages as: <b>JavaScript and PHP</b>. In addition, I have experience as a <b>teacher</b> in the area of ​​technology and as a <b>3D modeler</b> making a multitude of pieces focused on <b>3D printing</b>."
     },
     "content4":{
         "title":"Contact",
-        "text":"These are some of my networks, feel free to leave me a message."
+        "text":"These are some of my social networks, feel free to contact me."
     }
 }
