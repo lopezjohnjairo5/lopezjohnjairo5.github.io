@@ -7,15 +7,15 @@ let models_es = [
 ];
 
 let web_es = [
-    ["./public/img/proyects/inmobiliaria/Inicio.png","<h3>Inmobiliaria</h3>","Creación de página web inmobiliaria. Cuenta con sistemas de busqueda integrados. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>."],
-    ["./public/img/proyects/portfolio/porfolio-home.png","<h3>Portfolio</h3>","Actualización del portafolio de servicios actual. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>."],
-    ["./public/img/proyects/ejercicios web/pokeapi.png","<h3>Pokeapi</h3>","Practica de CSS3 y consumo de APIS. Creada mediante <b>Html5, Css3 y Js vanilla</b>."],
-    ["./public/img/proyects/restaurante/pl2_1.png","<h3>Restaurante</h3>","Creación de template web básico con enfoque para restaurantes. Cuenta con sistemas de busqueda, panel de administración, sistema de menú, btn de contacto whatsapp, entre otros. Diseño: <b>Proporcionado por el cliente</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>."],
-    ["./public/img/proyects/ejercicios web/generador_passwords.png","<h3>Generador passwords</h3>","Practica de algoritmia y Js. Creada mediante <b>Html5, Css3 y Js vanilla</b>."]
+    ["./public/img/proyects/inmobiliaria/Inicio.png","<h3>Inmobiliaria</h3>","<p>Creación de página web inmobiliaria. Cuenta con sistemas de busqueda integrados. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>.</p>"],
+    ["./public/img/proyects/portfolio/porfolio-home.png","<h3>Portfolio</h3>","<p>Actualización del portafolio de servicios actual. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>.</p>"],
+    ["./public/img/proyects/ejercicios web/pokeapi.png","<h3>Pokeapi</h3>","<p>Practica de CSS3 y consumo de APIS. Creada mediante <b>Html5, Css3 y Js vanilla</b>.</p>"],
+    ["./public/img/proyects/restaurante/pl2_1.png","<h3>Restaurante</h3>","<p>Creación de template web básico con enfoque para restaurantes. Cuenta con sistemas de busqueda, panel de administración, sistema de menú, btn de contacto whatsapp, entre otros. Diseño: <b>Proporcionado por el cliente</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>.</p>"],
+    ["./public/img/proyects/ejercicios web/generador_passwords.png","<h3>Generador passwords</h3>","<p>Practica de algoritmia y Js. Creada mediante <b>Html5, Css3 y Js vanilla</b>.</p>"]
 ];
 
 let juegos_es = [
-    ["./public/img/proyects/juegos/game-page-movile-h.png","<h3>Juego Breaker</h3>","Juego web creado bajo demanda. Creado mediante <b>Html5, Css3 y Js vanilla</b>."]
+    ["./public/img/proyects/juegos/game-page-movile-h.png","<h3>Juego Breaker</h3>","<p>Juego web creado bajo demanda. Creado mediante <b>Html5, Css3 y Js vanilla</b>.</p>"]
 ];
 
 /*Ingles*/
@@ -27,13 +27,13 @@ let models_en = [
 ];
 
 let web_en = [
-    ["./public/img/proyects/inmobiliaria/Inicio.png","<h3>Real Estate</h3>","Creation of real estate website. It has integrated search systems. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>."],
-    ["./public/img/proyects/portfolio/porfolio-home.png","<h3>Portfolio</h3>","Updating the current service portfolio. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>."],
-    ["./public/img/proyects/ejercicios web/pokeapi.png","<h3>Pokeapi</h3>","CSS3 practice and APIS consumption. Created using <b>Html5, CSS3 and vanilla Js</b>."],
-    ["./public/img/proyects/restaurante/pl2_1.png","<h3>Restaurant</h3>","Creation of a basic web template with a focus for restaurants. It has search systems, administration panel, menu system, WhatsApp contact btn, among others. Design: <b>Provided by client</b> ; Programming: <b>Html5, Css3, Php and vanilla Js</b>."],
-    ["./public/img/proyects/ejercicios web/generador_passwords.png","<h3>Password generator</h3>","Practice of algorithms and Js. Created using <b>Html5, CSS3 and vanilla Js</b>."]
+    ["./public/img/proyects/inmobiliaria/Inicio.png","<h3>Real Estate</h3>","<p>Creation of real estate website. It has integrated search systems. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>.</p>"],
+    ["./public/img/proyects/portfolio/porfolio-home.png","<h3>Portfolio</h3>","<p>Updating the current service portfolio. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>.</p>"],
+    ["./public/img/proyects/ejercicios web/pokeapi.png","<h3>Pokeapi</h3>","<p>CSS3 practice and APIS consumption. Created using <b>Html5, CSS3 and vanilla Js</b>.</p>"],
+    ["./public/img/proyects/restaurante/pl2_1.png","<h3>Restaurant</h3>","<p>Creation of a basic web template with a focus for restaurants. It has search systems, administration panel, menu system, WhatsApp contact btn, among others. Design: <b>Provided by client</b> ; Programming: <b>Html5, Css3, Php and vanilla Js</b>.</p>"],
+    ["./public/img/proyects/ejercicios web/generador_passwords.png","<h3>Password generator</h3>","<p>Practice of algorithms and Js. Created using <b>Html5, CSS3 and vanilla Js</b>.</p>"]
 ];
 
 let juegos_en = [
-    ["./public/img/proyects/juegos/game-page-movile-h.png","<h3>Breaker Game</h3>","Web game created on demand. Created using <b>Html5, Css3 and vanilla Js</b>."]
+    ["./public/img/proyects/juegos/game-page-movile-h.png","<h3>Breaker Game</h3>","<p>Web game created on demand. Created using <b>Html5, Css3 and vanilla Js</b>.</p>"]
 ];
