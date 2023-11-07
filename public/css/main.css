@@ -207,7 +207,7 @@
 p{
     color: var(--text-standar-color);
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
     margin: 10px 0;
 }
@@ -223,7 +223,8 @@ b{
 
 #projects,
 #about,
-#contact{
+#contact,
+#play{
     display: none;
 }
 
@@ -314,7 +315,7 @@ nav ul li a{
 
 h3{
     color: var(--first-color);
-    font-size: 40px;
+    font-size: 2em;
 }
 
 
@@ -564,6 +565,13 @@ footer{
     box-sizing: border-box;
 }
 
+/*play game*/
+/*#board-game{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+}*/
+
 /*animations*/
 @keyframes charge-bar-animation {
     0%{
@@ -641,7 +649,7 @@ nav ul li a:hover{
 
 @media only screen and (max-width: 720px) {
     body{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     #page{

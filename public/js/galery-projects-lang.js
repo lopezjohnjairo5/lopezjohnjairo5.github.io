@@ -18,6 +18,14 @@ let juegos_es = [
     ["./public/img/proyects/juegos/game-page-movile-h.png","<h3>Juego Breaker</h3>","<p>Juego web creado bajo demanda. Creado mediante <b>Html5, Css3 y Js vanilla</b>.</p>"]
 ];
 
+let desktop_es = [
+    ["./public/img/proyects/escritorio/cambio_dinamico_fondo_linux.png","<h3>Script automatización ubuntu</h3>","<p>Programa destinado a cambiar el fondo de pantalla del sistema operativo Ubuntu y derivados cada cierto tiempo. Creado en <b>python 3</b> </p>"],
+    ["./public/img/proyects/escritorio/mantenimiento_linux.png","<h3>Script mantenimiento lógico ubuntu</h3>","<p>Programa creado con el fin de realizar una serie de operaciones de limpieza a nivel de sistema operativo, incluye: la eliminación de paquetes antiguos, la ejecución de una actualización completa del sistema, entre otras cosas.Creado en <b>python 3</b></p>"],
+    ["./public/img/proyects/escritorio/generador_sudokus.png","<h3>Generador de sudokus</h3>","<p>Software generador de sudokus con interface gráfica.Permite generar juego y respuesta. Además, permite tomar una captura de pantalla del sudoku seleccionado, entre otras funciones.</p>"],
+    ["./public/img/proyects/escritorio/web_scraping.png","<h3>Web scraping</h3>","<p>Practica de Web scraping realizada con <b>Python 3</b>, enfocada a la recolección de información de las ciudades y departamentos de Colombia.</p>"],
+    ["./public/img/proyects/escritorio/generador_contrasennas_seguras.png", "<h3>Script generador de contraseñas seguras</h3>","<p>Programa generador de contraseñas seguras, incluye: reemplazo de letras generales por equivalentes, cambio aleatorio de minusculas a mayusculas, palabra semilla, selector de longitud. Creado con <b>Python 3</b></p>"]
+];
+
 /*Ingles*/
 
 let models_en = [
@@ -36,4 +44,12 @@ let web_en = [
 
 let juegos_en = [
     ["./public/img/proyects/juegos/game-page-movile-h.png","<h3>Breaker Game</h3>","<p>Web game created on demand. Created using <b>Html5, Css3 and vanilla Js</b>.</p>"]
+];
+
+let desktop_en = [
+    ["./public/img/proyects/escritorio/cambio_dinamico_fondo_linux.png","<h3>Ubuntu automation script</h3>","<p>Program designed to change the wallpaper of the Ubuntu operating system and derivatives from time to time. Created in <b>python 3</b> </p>"],
+    ["./public/img/proyects/escritorio/mantenimiento_linux.png","<h3>Ubuntu logical maintenance script</h3>","<p>Program created in order to perform a series of cleaning operations at the operating system level, including: removing old packages, executing a complete system update, among other things. Created in <b>python 3</b></p>"],
+    ["./public/img/proyects/escritorio/generador_sudokus.png","<h3>Sudoku generator</h3>","<p>Sudoku generator software with graphical interface. Allows you to generate the game and its corresponding answer. In addition, it allows you to take a screenshot of the selected sudoku, among other functions.</p>"],
+    ["./public/img/proyects/escritorio/web_scraping.png","<h3>Web scraping</h3>","<p>Web scraping practice carried out with <b>Python 3</b>, focused on the collection of information from the cities and departments of Colombia.</p>"],
+    ["./public/img/proyects/escritorio/generador_contrasennas_seguras.png", "<h3>Strong password generator script</h3>","<p>Secure password generator program, includes: replacement of general letters with equivalents, random change from lowercase to uppercase, seed word, length selector. Created with <b>Python 3</b></p>"]
 ];

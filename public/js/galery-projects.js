@@ -61,6 +61,9 @@ btnsTabs.addEventListener("click", (e) =>{
         case 'btn-tab-game': 
             galeryInfo =  lang == "es" ? juegos_es : juegos_en;           
             break;
+        case 'btn-tab-desktop':
+            galeryInfo =  lang == "es" ? desktop_es : desktop_en;           
+            break;
     }
 
     chageColorTabs(el[1]);
@@ -94,8 +97,7 @@ const stateBtn = (btn, state, color) => {
 
 const enabledDisabledBtn = (btnC, btnO, pos) => {
     /*funcion encargada de habilitar | deshabilitar el btn de la galeria pulsado.*/
-    //console.log(`window.innerWidth = ${window.innerWidth} ; screen.width = ${screen.width} ; posA = ${pos}`);
-
+    
     if(galeryInfo.length == 1){
         stateBtn(btnC, true, bgDisabledColor);
         stateBtn(btnO, true, bgDisabledColor);

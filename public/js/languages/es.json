@@ -7,7 +7,8 @@
         "link1":"Inicio",
         "link2":"Proyectos",
         "link3":"Acerca de",
-        "link4":"Contacto"
+        "link4":"Contacto",
+        "link5":"Jugar"
     },
     "content1":{
         "title" : "¡Bienvenido!",
@@ -26,5 +27,8 @@
     "content4":{
         "title":"Contacto",
         "text":"Estas son algunas de mis redes, siéntete libre de dejarme un mensaje."
+    },
+    "content5":{
+        "title":"¿Dónde está la bolita?"
     }
 }

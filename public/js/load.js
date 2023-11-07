@@ -1,7 +1,6 @@
 const animationLoadPage = () => {
     animationClose = setInterval(()=>{
-        console.log(`color1.clientHeight = ${color1.clientHeight}`);
-        //console.log(`color1.clientHeight/3 = ${color1.clientHeight/3}`);
+
         try {
             if (color1.clientHeight >= minValue ) {
                 //loadPage.style.height = `${loadPage.clientHeight-changeSize}px`;

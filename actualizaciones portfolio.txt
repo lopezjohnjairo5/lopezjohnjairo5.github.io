@@ -1,9 +1,10 @@
 actualizaciones portfolio
+- finalizar juego ¿Dondé está la bolita?
+- agregar seccion servicios y poner (programación desktop, web, modelado 3D, cursos de programación virtuales)
 
-- poner el texto que acompaña a las imagenes de la galeria a un lado en lugar de abajo
-- poner idiomas (es|en)
-- poner seccion juegos
-
-IDEA
-
+IDEAS
+- poner sección tutoriales e incluir:
+    - tutoriales css.
+    - tutoriales js.
+    - tutoriales python.
 - recrear entorno desktop linux como portfolio

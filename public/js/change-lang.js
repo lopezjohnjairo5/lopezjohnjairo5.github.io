@@ -27,7 +27,6 @@ selectorLang.addEventListener('click',(e) => {
     targ = e.target;
     if(targ.tagName == 'A'){
         valLang = targ.dataset.lang;
-        console.log(`valLang = ${valLang}`);
         document.documentElement.lang = valLang; // cambiamos el idioma de la pagina web
         lang = valLang;
         galeryInfo =  lang == "es" ? models_es : models_en; // definimos cual matriz de info usar para la galeria, ingles o español 
