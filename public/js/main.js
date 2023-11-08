@@ -30,3 +30,9 @@ navItems.addEventListener("click", (e) =>{
 btnHomeProject.addEventListener("click", () => {
     hiddeShowElements("projects"); 
 });
+
+for (const it of btnsServicesContact) {
+    it.addEventListener("click", () => {
+        hiddeShowElements("contact"); 
+    });  
+}

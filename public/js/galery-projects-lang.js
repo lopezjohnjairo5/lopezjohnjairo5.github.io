@@ -1,6 +1,7 @@
 /*Contenido de galeria multi-idioma*/
 /*Español*/
 let models_es = [
+    ["./public/img/proyects/3d/profesor.png","<h3>Profesor</h3>","<p>Modelo 3d realizado con software <b>makehuman</b>, animado con <b>adobe mixamo</b> y retocado con Blender version 3<br>Modelo para <b>Realidad aumentada</b>.</p>"],
     ["./public/img/proyects/3d/craneo.png","<h3>Craneo</h3>","<p>Modelo realizado con software Blender version 2.8.<br>Modelo para <b>impresión 3D</b>.</p>"],
     ["./public/img/proyects/3d/crash_1.png","<h3>Crash</h3>","<p>Personaje de la saga de videojuegos Crash Bandicoot. Modelado realizado en software Blender. <br>Modelo para <b>impresión 3D</b>.</p>"],
     ["./public/img/proyects/3d/sociales.png","<h3>Llaveros</h3>","<p>Modelos de llaveros de redes sociales. Modelado realizado en software Blender. <br>Modelo para <b>impresión 3D</b>.</p>"]
@@ -29,6 +30,7 @@ let desktop_es = [
 /*Ingles*/
 
 let models_en = [
+    ["./public/img/proyects/3d/profesor.png","<h3>Teacher</h3>","<p>3D model made with <b>makehuman software</b>, animated with <b>Adobe Mixamo</b> and retouched with Blender version 3<br>Model for <b>Augmented reality</b>.</p>"],
     ["./public/img/proyects/3d/craneo.png","<h3>Skull</h3>","<p>Model made with Blender software version 2.8.<br>Model for <b>3D printing</b>.</p>"],
     ["./public/img/proyects/3d/crash_1.png","<h3>Crash</h3>","<p>Character from the Crash Bandicoot video game saga. Modeling done in Blender software. <br>Model for <b>3D printing</b>.</p>"],
     ["./public/img/proyects/3d/sociales.png","<h3>Keychains</h3>","<p>Models of social media keychains. Modeling done in Blender software. <br>Model for <b>3D printing</b>.</p>"]

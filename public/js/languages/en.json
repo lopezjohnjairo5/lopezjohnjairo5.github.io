@@ -6,9 +6,10 @@
     "navbar":{
         "link1":"Home",
         "link2":"Projects",
-        "link3":"About",
-        "link4":"Contact",
-        "link5":"Play"
+        "link3":"Services",
+        "link4":"About",
+        "link5":"Contact",
+        "link6":"Play"
     },
     "content1":{
         "title" : "Welcome!",
@@ -18,17 +19,26 @@
     "content2":{
         "btn1":"3D Projects",
         "btn2":"Web Projects",
-        "btn3":"Games"
+        "btn3":"Desktop",
+        "btn4":"Games"
     },
     "content3":{
+        "title":"Services",
+        "textCard1": "Modeling of characters, objects and environments for <b>video games</b> or <b>3D printing</b>.",
+        "textCard2": "Custom software development for <b>Windows</b> systems | <b>Linux</b>.",
+        "textCard3": "Development of web pages or applications and assembly advice.",
+        "textCard4": "Virtual programming classes focused on the <b>web</b>, <b>mobile</b> or <b>desktop</b> environment from basic to advanced.",
+        "btn":"Contact me"
+    },
+    "content4":{
         "title":"About me.",
         "text":"My name is <b>John López</b>, I am a freelance programmer. I have 3 years of experience working on multiple projects, mainly focused on the web environment. In addition, I have experience as a <b>teacher</b> in the area of ​​technology and as a <b>3D modeler</b> making pieces focused on <b>3D printing</b>.<br>These are some of my knowledge:"
     },
-    "content4":{
+    "content5":{
         "title":"Contact",
         "text":"These are some of my social networks, feel free to contact me."
     },
-    "content5":{
+    "content6":{
         "title":"Where is the ball?"
     }
 }

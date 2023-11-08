@@ -6,9 +6,10 @@
     "navbar":{
         "link1":"Inicio",
         "link2":"Proyectos",
-        "link3":"Acerca de",
-        "link4":"Contacto",
-        "link5":"Jugar"
+        "link3":"Servicios",
+        "link4":"Acerca de",
+        "link5":"Contacto",
+        "link6":"Jugar"
     },
     "content1":{
         "title" : "¡Bienvenido!",
@@ -18,17 +19,26 @@
     "content2":{
         "btn1":"Proyectos 3D",
         "btn2":"Proyectos Web",
-        "btn3":"Juegos"
+        "btn3":"Escritorio",
+        "btn4":"Juegos"
     },
     "content3":{
+        "title":"Servicios",
+        "textCard1": "Modelado de personajes, objetos y entornos para <b>videojuegos</b> o <b>impresión 3D</b>.",
+        "textCard2": "Desarrollo de software a la medida para sistemas <b>Windows</b> | <b>Linux</b>.",
+        "textCard3": "Desarrollo de páginas o aplicaciones <b>web</b> y asesoria en montaje.",
+        "textCard4": "Clases virtuales de programación enfocadas a entorno <b>web</b>, <b>móvil</b> o <b>desktop</b> desde básico a avanzado.",
+        "btn":"Contactar"
+    },
+    "content4":{
         "title":"Sobre mi.",
         "text":"Mi nombre es <b>John López</b>, soy programador freelance. Cuento con 3 años de experiencia trabajando en multiples proyectos, principalmente enfocados al entorno web. Además, cuento con experiencia como <b>docente</b> en el área de tecnología y como <b>modelador 3D</b> realizando piezas enfocadas a la <b>impresión 3D</b>.<br>Estos son algunos de mis conocimientos:"
     },
-    "content4":{
+    "content5":{
         "title":"Contacto",
         "text":"Estas son algunas de mis redes, siéntete libre de dejarme un mensaje."
     },
-    "content5":{
+    "content6":{
         "title":"¿Dónde está la bolita?"
     }
 }

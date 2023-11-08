@@ -15,6 +15,15 @@
     --text-standar-color : rgb(255,255,255);
 }
 
+/*evitamos que se muestren los scrolls en de los divs*/
+div::-webkit-scrollbar,
+div::-webkit-scrollbar-thumb{
+    -webkit-appearance: none;
+    display: none;
+    background-color: var(--second-color);
+}
+
+
 #mode-info-input{
     position: absolute;
     display: flex;
@@ -222,6 +231,7 @@ b{
 }
 
 #projects,
+#services,
 #about,
 #contact,
 #play{
@@ -498,6 +508,56 @@ h3{
     text-align: center;
 }
 
+/*services*/
+#services{
+    width: 100%;
+    max-height: 70vh;
+    position: relative;
+    overflow: scroll;
+}
+
+#services-cards{
+    height: 80%;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cards-services{
+    width: calc(100% / 4);
+    height: 270px;
+    padding: 5px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--first-color);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.service-icons,
+.cards-services p{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.cards-services p{
+    height: 50%;
+}
+
+.service-icons{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    stroke: white;
+    color: wheat;
+}
+
 /*about*/
 #about{
     text-align: center;
@@ -699,6 +759,25 @@ nav ul li a:hover{
     #img-gal-description{
         height: 30%;
         overflow-y: scroll;
+    }
+
+    /*services*/
+    #services{
+        justify-content: flex-start;
+    }
+
+    #services-cards{
+        flex-direction: column;
+    }
+
+    .cards-services{
+        width: 70%;
+        height: 200px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .service-icons{
+        height: 45%;
     }
 
     /*about*/
