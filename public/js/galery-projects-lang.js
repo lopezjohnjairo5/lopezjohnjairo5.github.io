@@ -8,6 +8,7 @@ let models_es = [
 ];
 
 let web_es = [
+    ["./public/img/proyects/spa_canino/Home.png","<h3>Spa Canino</h3>","<p>Diseño y creación de landing page de spa canino. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>.</p>"],
     ["./public/img/proyects/inmobiliaria/Inicio.png","<h3>Inmobiliaria</h3>","<p>Creación de página web inmobiliaria. Cuenta con sistemas de busqueda integrados. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>.</p>"],
     ["./public/img/proyects/portfolio/porfolio-home.png","<h3>Portfolio</h3>","<p>Actualización del portafolio de servicios actual. Diseño: Software <b>Figma</b> ; Programación: <b>Html5, Css3, Php y Js vanilla</b>.</p>"],
     ["./public/img/proyects/ejercicios web/pokeapi.png","<h3>Pokeapi</h3>","<p>Practica de CSS3 y consumo de APIS. Creada mediante <b>Html5, Css3 y Js vanilla</b>.</p>"],
@@ -37,6 +38,7 @@ let models_en = [
 ];
 
 let web_en = [
+    ["./public/img/proyects/spa_canino/Home.png","<h3>Canine Spa</h3>","<p>Design and creation of dog spa landing page. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>.</p>"],
     ["./public/img/proyects/inmobiliaria/Inicio.png","<h3>Real Estate</h3>","<p>Creation of real estate website. It has integrated search systems. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>.</p>"],
     ["./public/img/proyects/portfolio/porfolio-home.png","<h3>Portfolio</h3>","<p>Updating the current service portfolio. Design: <b>Figma</b> Software; Programming: <b>Html5, Css3, Php and vanilla Js</b>.</p>"],
     ["./public/img/proyects/ejercicios web/pokeapi.png","<h3>Pokeapi</h3>","<p>CSS3 practice and APIS consumption. Created using <b>Html5, CSS3 and vanilla Js</b>.</p>"],

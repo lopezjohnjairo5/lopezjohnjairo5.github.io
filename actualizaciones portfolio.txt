@@ -1,6 +1,13 @@
 actualizaciones portfolio
 - finalizar juego ¿Dondé está la bolita?
-- agregar seccion servicios y poner (programación desktop, web, modelado 3D, cursos de programación virtuales)
+- agregar a conocimientos:
+    - blender
+    - figma
+    - photoshop
+    - office
+    - opcionales
+        - makehuman (para crear modelos personas)
+        - mixamo (para animar)
 
 IDEAS
 - poner sección tutoriales e incluir:
