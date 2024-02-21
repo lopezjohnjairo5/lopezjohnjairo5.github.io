@@ -625,12 +625,21 @@ footer{
     box-sizing: border-box;
 }
 
-/*play game*/
-/*#board-game{
-    width: 90%;
-    height: 80%;
-    background-color: white;
-}*/
+/*games*/
+#cards-games{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-game{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
 
 /*animations*/
 @keyframes charge-bar-animation {
