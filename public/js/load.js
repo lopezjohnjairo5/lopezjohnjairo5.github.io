@@ -45,7 +45,8 @@ window.addEventListener('load',()=>{
         btnChangeMode.setAttribute('value','1'); // cambia el value y posicion del btn de seleccion de modo
     } else {
         // inicializa en modo claro la pagina
-        btnChangeMode.setAttribute('value','0'); // cambia el value y posicion del btn de seleccion de modo
         switchMode('0');
+		btnChangeMode.setAttribute('value','0'); // cambia el value y posicion del btn de seleccion de modo
+        
     }
 });
