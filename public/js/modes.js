@@ -8,7 +8,7 @@ const switchMode = (valueMode) => {
             document.documentElement.style.setProperty('--third-color', 'rgba(69,69,69,1)');
             document.documentElement.style.setProperty('--four-color', 'rgba(44,44,44,1)');
             document.documentElement.style.setProperty('--first-transparent-color', 'rgba(10,10,10,.5)');
-            canvas.style.backgroundColor = '#FFB633';
+            //canvas.style.backgroundColor = '#FFB633';
             iconTitle.setAttribute('href',"public/img/ico-amarillo.ico");
             logoLoadPage.setAttribute('src',"public/img/logo-blanco-amarillo.png");
             break;
@@ -21,7 +21,7 @@ const switchMode = (valueMode) => {
             document.documentElement.style.setProperty('--third-color', 'rgba(45,45,45,1)');
             document.documentElement.style.setProperty('--four-color', '#191919');
             document.documentElement.style.setProperty('--first-transparent-color', 'rgba(7,7,7,1)');
-            canvas.style.backgroundColor = 'rgb(16,16,185)';
+            //canvas.style.backgroundColor = 'rgb(16,16,185)';
             iconTitle.setAttribute('href',"public/img/ico-azul.ico");
             logoLoadPage.setAttribute('src',"public/img/logo-blanco-azul.png");
             break;
